@@ -1,0 +1,36 @@
+<template>
+
+    
+    
+    
+     <a href="#" class="carousel-element active" ref="banner0">
+        <img src="https://d3o1t8vp7n8wsg.cloudfront.net/assets/website_revamp/banners/home_default_banner-d0ba19204ad5aee871e07cdc7cc11da65fe996c2ab94422300e68e4ec8feb800.png" alt="Mini truck for hire" class="carousel-main-img" style="height:400px!important;
+        width: 1500px!important;">
+        <h1 class="section_header bold_porter_purple">Mini truck for rent in a Click!</h1></a>
+        <lightning-input-name
+        label="ENTER CUSTOMER DETAILS:"
+        first-name="     "
+        middle-name="     "
+        last-name="     "
+
+       
+        salutation="Mr."
+        options={salutationOptions} >
+</lightning-input-name>
+<lightning-input-address
+address-label="Address"
+street-label="Street"
+city-label="City"
+country-label="Country"
+province-label="Province"
+postal-code-label="PostalCode"
+required
+field-level-help="Help Text for inputAddress field" >
+</lightning-input-address>
+<lightning-button class="slds-button slds-button_stretch" type="submit" variant="brand" label="Create Customer Details" onclick={showToast}>
+
+   
+
+</lightning-button>           
+
+</template>
